@@ -12,20 +12,20 @@ const genCompChoice = () => {
 };
 
 const drawGame = () => {
-    console.log("game was draw");
-    msg.innerHTML = "game was draw";
+    console.log("Game Was Draw");
+    msg.innerHTML = "Game Was draw";
     msg.style.backgroundColor = "blue";
     
 };
 
 const showWinner = (userWin) => { 
     if (userWin) {
-        console.log("user wins");
-        msg.innerHTML = "user wins";
+        console.log("User Wins!");
+        msg.innerHTML = "User Wins!";
         msg.style.backgroundColor = "green";
     } else {
-        console.log("computer wins");
-        msg.innerHTML = "computer wins";
+        console.log("Computer Wins!");
+        msg.innerHTML = "Computer Wins";
         msg.style.backgroundColor = "red";
     }
 }
